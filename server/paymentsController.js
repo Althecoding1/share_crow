@@ -6,6 +6,7 @@ const db = require(path.resolve(__dirname, '../../db/dbDesign.js'));
 const stripe = require('stripe')('sk_test_NKcbGwQJ7qeEaOhiMMzDf2WU');
 const Sequelize = require('sequelize');
 
+
 module.exports = {
 	// //////////////////////////// PAYMENT FUNCTIONS ////////////////////////////
   generatePayment: (req, res) => {
@@ -116,7 +117,7 @@ module.exports = {
         },
       })
         .then(queryData => {
-          queryData.updateAttributes({ paymentDate: new Date().toISOString(), paymentComplete: true });
+          queryData.updateAttributes({ paymentDate: new Date().toISOString() });
           db.User.find({
             where: {
               id: req.body.ownerId,
