@@ -75,14 +75,21 @@ li.category:hover {
     background-color: #CD1B4E;
     color: white;
     border: 2px solid;
-    position: relative;
+    position: absolute;
     z-index: 0;
 
+}
+.postButton {
+  position: absolute;
 }
 
 .authorizePopUp {
   position: absolute;
   bottom: 3em;
+}
+.btn {
+  position: absolute;
+  top: 4em;
 }
 
 .post-item-button:hover {

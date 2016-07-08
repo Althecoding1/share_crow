@@ -3,7 +3,7 @@
 /* eslint-disable max-len */
 const path = require('path');
 const db = require(path.resolve(__dirname, '../../db/dbDesign.js'));
-const stripe = require('stripe')('sk_test_NKcbGwQJ7qeEaOhiMMzDf2WU');
+const stripe = require('stripe')('sk_live_VD7Ebg2cP9cJ2xteEfzLbZRw');
 const Sequelize = require('sequelize');
 
 module.exports = {
