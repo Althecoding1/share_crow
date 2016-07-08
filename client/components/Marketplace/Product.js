@@ -137,7 +137,7 @@ class Product extends Component {
             <div className="rent-overlay">
               <img
                 className="product-image bottom-image"
-                src={product.listingImage[0].image}
+                src={product.listingImage[0] ? product.listingImage[0].image : null}
                 alt="product"
               />
               <img
@@ -223,7 +223,7 @@ class Product extends Component {
           <div className="rent-overlay">
             <img
               className="product-image bottom-image"
-              src={product.listingImage[0].image}
+              src={product.listingImage[0] ? product.listingImage[0].image : null}
               alt="product"
             />
             <img
@@ -253,7 +253,7 @@ class Product extends Component {
           <div className="rent-overlay">
             <img
               className="product-image bottom-image"
-              src={product.listingImage[0].image}
+              src={product.listingImage[0] ? product.listingImage[0].image : null}
               alt="product"
             />
           </div>
@@ -279,7 +279,7 @@ class Product extends Component {
           <div className="rent-overlay">
             <img
               className="product-image bottom-image"
-              src={product.listingImage[0].image}
+              src={product.listingImage[0] ? product.listingImage[0].image : null}
               alt="product"
             />
             <img
