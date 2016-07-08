@@ -18,18 +18,18 @@ db.sequelize
     });
     db.User.create({
       password: 'jjj3k12kksksls',
-      username: 'samChute123',
-      address: '4411 TomTom Street',
+      username: 'fmontgomery1',
+      address: '622 Treat Ave',
       city: 'San Francisco',
-      state: 'California',
-      zipcode: '94539',
-      email: 'samChute1@gmail.com',
-      phone: '555-444-1122',
-      about: 'All about me!',
+      state: 'CA',
+      zipcode: '94110',
+      email: 'fmontgomery1@sphinn.com',
+      phone: '716-994-0668',
+      about: null,
       verification: 1234,
       verified: true,
-      firstName: 'Sam',
-      lastName: 'Chute',
+      firstName: 'Sharon',
+      lastName: 'Moreno',
       stripeToken: null,
     }).then((user) => {
       db.Images.create({
@@ -39,18 +39,18 @@ db.sequelize
     });
     db.User.create({
       password: 'jalsjo3kkqfo',
-      username: 'Justin',
-      address: '66611 S Street',
+      username: 'fmontgomery1',
+      address: '4284 26th St',
       city: 'San Francisco',
-      state: 'California',
-      zipcode: '94539',
-      email: 'Justin@gmail.com',
+      state: 'CA',
+      zipcode: '94131',
+      email: 'fmontgomery1@sphinn.com',
       phone: '555-567-0099',
-      about: 'Everything about me!',
+      about: null,
       verification: 1234,
       verified: true,
-      firstName: 'Seeelle',
-      lastName: 'Lion',
+      firstName: 'Frank',
+      lastName: 'Montgomery',
       stripeToken: null,
     }).then((user) => {
       db.Images.create({
@@ -60,18 +60,18 @@ db.sequelize
     });
     db.User.create({
       password: 'kp409fjw48hgj5',
-      username: 'Cathy',
-      address: '9494 Tell Ave',
+      username: 'fsmith2',
+      address: '1388 6th Ave',
       city: 'San Francisco',
-      state: 'California',
-      zipcode: '94539',
-      email: 'Cathy@gmail.com',
+      state: 'CA',
+      zipcode: '94122',
+      email: 'fsmith2@ebay.co.uk',
       phone: '555-001-8585',
       about: 'All about us!',
       verification: 1234,
       verified: true,
-      firstName: 'Tello',
-      lastName: 'Bean',
+      firstName: 'Frances',
+      lastName: 'Smith',
       stripeToken: null,
     }).then((user) => {
       db.Images.create({
@@ -81,18 +81,60 @@ db.sequelize
     });
     db.User.create({
       password: 'k94993010kkf',
-      username: 'Ben',
-      address: '009 Tails Road',
+      username: 'jprice3',
+      address: '1633 11th Ave',
       city: 'San Francisco',
-      state: 'California',
-      zipcode: '94539',
-      email: 'Ben1@gmail.com',
+      state: 'CA',
+      zipcode: '94122',
+      email: 'jprice3@g.co',
       phone: '555-667-0862',
       about: 'All me!',
       verification: 1234,
       verified: true,
-      firstName: 'Sam',
-      lastName: 'Tranpppse',
+      firstName: 'Justin',
+      lastName: 'Price',
+      stripeToken: null,
+    }).then((user) => {
+      db.Images.create({
+        image: 'http://a2.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTIwNjA4NjMzODE1Nzk1MjEy.jpg',
+        UserId: user.dataValues.id,
+      });
+    });
+    db.User.create({
+      password: 'qZki2zIXhzPI',
+      username: 'kryan4',
+      address: '1715 18th Ave',
+      city: 'San Francisco',
+      state: 'CA',
+      zipcode: '94122',
+      email: 'kryan4@ameblo.jp',
+      phone: '574-766-5688',
+      about: 'All me!',
+      verification: 1234,
+      verified: true,
+      firstName: 'Kathryn',
+      lastName: 'Ryan',
+      stripeToken: null,
+    }).then((user) => {
+      db.Images.create({
+        image: 'http://a2.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTIwNjA4NjMzODE1Nzk1MjEy.jpg',
+        UserId: user.dataValues.id,
+      });
+    });
+    db.User.create({
+      password: 'wVdKTyiE',
+      username: 'palexander7',
+      address: '1574 15th Ave',
+      city: 'San Francisco',
+      state: 'CA',
+      zipcode: '94122',
+      email: 'cmeyero@ucoz.ru',
+      phone: '952-252-7241',
+      about: 'All me!',
+      verification: 1234,
+      verified: true,
+      firstName: 'Paul',
+      lastName: 'Alexander',
       stripeToken: null,
     }).then((user) => {
       db.Images.create({
@@ -307,7 +349,7 @@ db.sequelize
       categoryId: null,
     });
     db.Category.create({
-      categoryName: 'Motors',
+      categoryName: 'Automotive',
       categoryId: null,
     });
     db.Category.create({
